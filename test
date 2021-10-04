@@ -1,0 +1,5 @@
+ insert into guest (guestNo,guestName,guestAddress)
+    -> values ('378','sihan','tangerang'),
+     ('35','kanz','tangerang'),
+      ('34','chika','tangerang');
+  
