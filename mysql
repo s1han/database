@@ -8,3 +8,26 @@ use jakarta_hotel;
   >hotelName varchar(20) not null,
   >city varchar(20) not null
   >);
+  
+  create table room (
+    >roomNo int(10) not null primary key,
+    >hotelNo int (10) not null primary key,
+    >type varchar(20) not null,
+    >price int(50) not null
+    >);
+    
+   create table booking (
+     >hotelNo int(10) not null primary key,
+     >guestNo int(10) not null primary key,
+     >dateFrom int(20) not null primary key,
+     >dateTo int(10) not null,
+     >roomN0 int(10) not null
+     >);
+  
+   create table guest (
+     >guestNo int(10) not null primary key,
+     >guestName varchar(50) not null,
+     >guestAddress varchar(10) not null
+     >);
+  
+     
