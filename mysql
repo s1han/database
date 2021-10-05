@@ -1,0 +1,10 @@
+create database jakarta_hotel;
+
+
+use jakarta_hotel;
+ 
+ create tables hotel (
+  >hotelNo int(10) not null primary key,
+  >hotelName varchar(20) not null,
+  >city varchar(20) not null
+  >);
